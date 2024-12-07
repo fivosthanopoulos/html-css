@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 20%;
+    position: fixed;
+    overflow: hidden;
+}
+
+.logo {
+    width: 45%;
+    float: left;
+}
+
+
+.menu {
+    width: 55%;
+    float: right;
+    position: sticky;
+}
+
+.menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu li {
+    list-style: none;
+    line-height: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #b98762;
+    font-size: 1.2rem;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+
+.slider {
+    width: 100%;
+    background-image: url(tparl.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: white;
+    padding-top: 250px;
+    margin: 0 auto;
+    align-items: center;
+    width: 70%;
+}
+
+.main {
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    width: 100%;
+}
+
+.tat {
+    background-image: url(tatgif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    float: left;
+    width: 50%;
+
+}
+
+.tat>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.pierc {
+    background-image: url(piercegif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    float: right;
+    width: 50%;
+}
+
+.pierc>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+
+.main a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #b98762;
+}
+
+.tat a:hover {
+    font-size: 80px;
+}
+
+.pierc a:hover {
+    font-size: 80px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+
+.footer > div {
+    display: inline-block; 
+    width: 23%;  
+    margin: 10px 1%;  
+    vertical-align: top;  
+}
+
+.about {
+    width: 100%;  
+    margin-bottom: 20px;
+}
+
+
+.about h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+.contact h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  
+}
+
+.contact .phone, .contact .mail {
+    font-size: 16px;
+    margin-bottom: 10px;
+   
+}
+
+.contact a {
+    color: #f0a500; 
+    text-decoration: none;
+}
+
+.contact a:hover {
+    font-size: 18px;
+}
+
+.social p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social a {
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.insta:hover {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        text-decoration: none;
+        font-size: 22px;
+}
+
+.fbc:hover {
+    color: #0000ff;
+    font-size: 22px;
+}
+
+.copyright p {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+   
